@@ -1,0 +1,4 @@
+2020-05-24 20:33:30,915  INFO [main] LoginpageTestCases:22 - super class constructor called
+2020-05-24 20:33:30,921 ERROR [main] LoginpageTestCases:23 - super class constructor called
+2020-05-24 20:33:30,922  WARN [main] LoginpageTestCases:24 - super class constructor called
+2020-05-24 20:33:30,922 FATAL [main] LoginpageTestCases:25 - super class constructor called
