@@ -43,7 +43,7 @@ public class ContactsPageTest extends TestBase{
 		Thread.sleep(3000);
 	}
 	
-	@Test(priority =1,enabled=false)
+	@Test(priority =1,enabled=true)
 	public void verifyWelcomeText()
 	{
 		String text = contactspage.getContactsLabelText();
@@ -51,14 +51,14 @@ public class ContactsPageTest extends TestBase{
 		Assert.assertEquals(text, "Contacts");
 	}
 	
-	@Test(priority =2,enabled=false)
+	@Test(priority =2,enabled=true)
 	public void selectSingleContact() throws InterruptedException
 	{
 		
 		contactspage.selectContactByName("priya panda");
 	}
 	
-	@Test(priority =3,enabled=false)
+	@Test(priority =3,enabled=true)
 	public void selectMultipleContacts() throws InterruptedException
 	{
 		
