@@ -36,7 +36,7 @@ public class LoginpageTestCases extends TestBase{
 		Assert.assertEquals(title, "Cogmento CRM");
 	}
 	
-	@Test(priority =2,enabled=false)
+	@Test(priority =2)
 	public void signin()
 	{
 		String uname = prop.getProperty("email");
